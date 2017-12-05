@@ -33,7 +33,7 @@ namespace TicTacToe
                             GameFinished(result, board);
 
                             board.Clear();
-                            Console.WriteLine("Please play modafuckkers!! q to quit");
+                            Console.WriteLine("Please play!! q to quit");
                         }
                     }
                     catch (Exception e)
