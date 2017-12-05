@@ -31,9 +31,11 @@ namespace TicTacToe
 
         public void Display()
         {
-            Console.WriteLine(Board[0] + " " + Board[1] + " " + Board[2]);
-            Console.WriteLine(Board[3] + " " + Board[4] + " " + Board[5]);
-            Console.WriteLine(Board[6] + " " + Board[7] + " " + Board[8]);
+            Console.WriteLine(Board[0] + " | " + Board[1] + " | " + Board[2]);
+            Console.WriteLine("__________");
+            Console.WriteLine(Board[3] + " | " + Board[4] + " | " + Board[5]);
+            Console.WriteLine("__________");
+            Console.WriteLine(Board[6] + " | " + Board[7] + " | " + Board[8]);
         }
 
         private void InputValidation(int position)

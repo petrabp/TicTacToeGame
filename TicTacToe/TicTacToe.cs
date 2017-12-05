@@ -18,7 +18,7 @@ namespace TicTacToe
 
             var board = new TicTacToeBoard();
             var game = new TicTacToeGame(board);
-            Console.WriteLine("Please play modafuckkers!! q to quit");
+            Console.WriteLine("Please play!! q to quit");
 
             var userInput = UpdateUi(board);
             while (userInput != "q")
